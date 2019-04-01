@@ -105,7 +105,6 @@ void setup(){
         invent[k]=" ";
     }
     invent[0]="[ INVENTORY: ]";
-    invQ++;
 
     for(int i=0;i<GRIDX;i++){
         for(int j=0;j<GRIDY;j++){
@@ -134,7 +133,7 @@ void printout(){
             strcat(temp,invent[i]);
             printf("%s",temp);
         }
-        if(i==invQ){
+        if(i==invQ+1){
             printf("|| [------------]");
         }
         putchar('\n');
