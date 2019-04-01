@@ -8,5 +8,6 @@
 
 /*Ummmm I'm gonna throw all the flowers here I guess.*/
 
+void clearterm(void);
 
 #endif
